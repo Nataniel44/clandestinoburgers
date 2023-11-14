@@ -11,4 +11,5 @@ export default defineConfig({
       verbose: true,
     }),
   ],
+  base: "/clandestinoburgers/",
 });
