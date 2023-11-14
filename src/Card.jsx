@@ -7,10 +7,10 @@ const Card = ({ img, name, price, agregarAlCarrito }) => {
         className=" rounded-4 md:rounded-t-lg md:rounded-b-none object-fit-cover"
         alt=""
       />
-      <article className="md:w-56 flex flex-col  md:items-end text-white text-md  gap-2 p-2">
-        <div className="d-flex flex-column md:items-end align-items-center">
+      <article className="md:w-56 flex flex-col text-white text-end gap-2 p-2">
+        <div className="d-flex flex-column md:items-end align-items-end">
           <h3 className="text-end">{name}</h3>
-          <span className="">$ {price}</span>
+          <span className="text-end">$ {price}</span>
         </div>
         <button
           onClick={agregarAlCarrito}

@@ -108,7 +108,9 @@ function App() {
         </h1>
 
         <div className="d-flex justify-content-center align-items-center pt-3 relative">
-          <button className="btn-main">Haz tu pedido!</button>
+          <a href="#compra" className="btn-main btn">
+            Nuestro Menú!
+          </a>
         </div>
       </main>
       <section
