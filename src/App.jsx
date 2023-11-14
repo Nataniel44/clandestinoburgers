@@ -95,11 +95,11 @@ function App() {
         <a href="#" className="nav-buttom btn">
           Inicio
         </a>
-        <a href="#compra" className="nav-buttom  btn">
-          Comprar
-        </a>
         <a className="nav-buttom btn" href="#about">
           Sobre Nosotros
+        </a>
+        <a href="#compra" className="nav-buttom  btn">
+          Comprar
         </a>
       </div>
       <main className="vh-50 text-light bg-main  d-flex flex-column justify-content-center align-items-center">
