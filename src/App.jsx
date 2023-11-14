@@ -93,7 +93,7 @@ function App() {
       </nav>
       <div className="d-flex justify-content-center  sticky-top nav-color">
         <a href="#" className="nav-buttom btn">
-          inicio
+          Inicio
         </a>
         <a className="nav-buttom btn" href="#about">
           Sobre Nosotros
